@@ -3,7 +3,6 @@ import Hero from "./sections/Hero";
 import Header from "./sections/Header";
 import NavMobile from "./components/NavMobile";
 import About from "./sections/About";
-import Video from "./components/Video";
 import Feature from "./sections/Feature";
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
@@ -19,7 +18,6 @@ const App = () => {
         <NavMobile setNavMobile={setNavMobile} />
       </div>
       <About />
-      <Video />
       <Feature />
     </div>
   );
