@@ -32,7 +32,7 @@ const FeatureSection: React.FC = () => {
   return (
     <section className="py-12 lg:py-24" id="Feature">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-6">Your set is here</h2>
+        <h2 className="text-3xl font-bold mb-6">Your Early Access is here</h2>
         <div className="grid gap-y-4 lg:grid-cols-2 lg:gap-9">
           {features.map(({ id, image, title, description }) => (
             <div key={id} className="relative">
