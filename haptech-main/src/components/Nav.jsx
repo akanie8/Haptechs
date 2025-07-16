@@ -15,7 +15,7 @@ const Nav = () => {
           <a href="#Feature">Features</a>
         </li>
         <li className="btn">
-          <a href="#">Contact</a>
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
     </nav>
