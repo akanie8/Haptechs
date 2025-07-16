@@ -1,6 +1,7 @@
 import React from "react";
 import { IoClose } from "react-icons/io5";
 const NavMobile = ({ setNavMobile }) => {
+  //Mobile's side bar
   return (
     <nav className="lg:hidden bg-[#251f3f] w-full h-full">
       <IoClose
