@@ -7,7 +7,7 @@ const FeatureSection: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // Replace with your real MockAPI endpoint
+    // Fetching data from MockAPI
     const fetchFeatures = async () => {
       try {
         const response = await fetch("https://68767a2c814c0dfa653c3f1a.mockapi.io/api/v1/Feature");
