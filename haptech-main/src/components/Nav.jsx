@@ -8,11 +8,11 @@ const Nav = () => {
           <a href="#">Home</a>
         </li>
         <li className="nav-link">
-          <a href="#">About</a>
+          <a href="#About">About</a>
         </li>
 
         <li className="nav-link">
-          <a href="#">Features</a>
+          <a href="#Feature">Features</a>
         </li>
         <li className="btn">
           <a href="#">Contact</a>

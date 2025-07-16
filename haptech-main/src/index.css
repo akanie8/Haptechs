@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+
+  html{
+    scroll-behavior: smooth
+  }
   body {
     @apply font-secondary bg-body text-white relative leading-relaxed font-extralight;
   }

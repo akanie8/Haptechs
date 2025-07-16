@@ -4,6 +4,8 @@ import Header from "./sections/Header";
 import NavMobile from "./components/NavMobile";
 import About from "./sections/About";
 import Feature from "./sections/Feature";
+import Footer from "./components/Footer";
+import Contact from "sections/Contact";
 const App = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
@@ -19,6 +21,8 @@ const App = () => {
       </div>
       <About />
       <Feature />
+      <Contact/>
+      <Footer />
     </div>
   );
 };

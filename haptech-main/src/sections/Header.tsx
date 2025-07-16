@@ -1,15 +1,22 @@
 import React from "react";
-import Logo from "../assets/img/logo.svg";
 import Nav from "../components/Nav";
 import { HiMenu } from "react-icons/hi";
+import Logo from '../assets/img/splash.png'
+interface HeaderProps {
+  setNavMobile: (value: boolean) => void;
+}
 
-const Header = ({ setNavMobile }) => {
+const Header: React.FC<HeaderProps> = ({ setNavMobile }) => {
   return (
     <header className="py-6">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <a href="#">
-            <img className="h-[30px]" src={Logo} alt="" />
+            <img
+              src={Logo}
+              alt="Haptech Logo"
+              className="h-20 w-auto object-contain"
+            />
           </a>
           <Nav />
           {/* Nav mobile btn */}
