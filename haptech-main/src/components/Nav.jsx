@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className="hidden lg:flex">
       <ul className="flex items-center space-x-12 font-secondary">
         <li className="nav-link">
-          <a href="#">Home</a>
+          <a href="#Hero">Home</a>
         </li>
         <li className="nav-link">
           <a href="#About">About</a>

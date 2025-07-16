@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 const Hero: React.FC = () => {
   return (
-    <section className="min-h-[600px] pt-24 pb-12 text-center relative lg:pt-48 lg:pb-0 lg:text-left">
+    <section className="min-h-[600px] pt-24 pb-12 text-center relative lg:pt-48 lg:pb-0 lg:text-left" id="Hero">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           <div>
