@@ -38,7 +38,7 @@ const Footer = () => {
       </div>
 
       <p className="text-gray-400 text-sm text-center w-full lg:w-auto">
-        © 2025 Shaun Zitha. All rights reserved.
+        © 2025 Haptech. All rights reserved.
       </p>
     </footer>
   );
